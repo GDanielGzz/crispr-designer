@@ -1,0 +1,49 @@
+cff-version: 1.2.0
+message: "If you use this software in your work, please cite it as below."
+type: software
+title: "CRISPR Designer — trained sgRNA efficiency scorers with measured baselines"
+abstract: >-
+  A multi-organism CRISPR-Cas9 sgRNA designer where two trained efficiency
+  scorers (a 200k-parameter encoder-only transformer and an XGBoost
+  reproduction of Rule Set 2) are evaluated head-to-head on identical
+  splits against the published Doench 2016 mammalian and crisprHAL E. coli
+  corpora. The transformer ties XGBoost on mammalian data (Spearman ρ
+  0.420 vs 0.459, overlapping 95% CIs) and loses cleanly on bacterial data
+  (Spearman ρ 0.544 vs 0.626, non-overlapping CIs). Cross-kingdom transfer
+  learning produced no improvement, suggesting CRISPR efficiency signal is
+  largely organism-specific at the model scale tested.
+authors:
+  - family-names: "González Lozano"
+    given-names: "Daniel"
+    orcid: "https://orcid.org/0009-0002-1737-276X"
+    email: "sleepy.komodo@protonmail.com"
+    affiliation: "Tecnológico de Monterrey, Monterrey, Mexico"
+version: "v0.1-portfolio-snapshot"
+date-released: "2026-05-28"
+license: MIT
+url: "https://github.com/GDanielGzz/crispr-designer"
+repository-code: "https://github.com/GDanielGzz/crispr-designer"
+keywords:
+  - "CRISPR-Cas9"
+  - "sgRNA design"
+  - "machine learning"
+  - "transformer"
+  - "XGBoost"
+  - "Rule Set 2"
+  - "bootstrap confidence intervals"
+  - "Doench 2016"
+  - "crisprHAL"
+  - "bioinformatics"
+  - "negative results reporting"
+# Uncomment and fill in after the Zenodo deposit:
+# preferred-citation:
+#   type: report
+#   title: "CRISPR Designer: Trained sgRNA efficiency scorers against measured Rule Set 2 baselines on mammalian and bacterial corpora"
+#   authors:
+#     - family-names: "González Lozano"
+#       given-names: "Daniel"
+#       orcid: "https://orcid.org/0009-0002-1737-276X"
+#   year: 2026
+#   doi: "10.5281/zenodo.XXXXXXX"
+#   institution:
+#     name: "Tecnológico de Monterrey"
