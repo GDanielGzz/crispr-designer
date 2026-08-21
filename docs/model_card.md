@@ -116,7 +116,7 @@ this repository.
 
 ## Publishing checklist (when ready)
 
-- [ ] Hugging Face Hub username confirmed (currently TBD)
+- [ ] Hugging Face Hub username confirmed (`SleepyKomodo`)
 - [ ] Weights exported in `safetensors` format
 - [ ] Repository created under that namespace
 - [ ] This model card mirrored to the HF Hub repo

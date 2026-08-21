@@ -6,7 +6,7 @@ head model comparisons honest (bootstrap CIs, identical evaluation
 pipelines, negative results reported) is the same discipline that
 surfaces these caveats.
 
-Last updated: 2026-05-23 (initial scaffolding by CodeNya)
+Last updated: 2026-05-23
 
 ---
 
